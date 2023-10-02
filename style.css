@@ -1,0 +1,14 @@
+#gridContainer {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    gap: 1px; /* Adjust the gap size as needed */
+    width: 400px; /* Adjust the width and height as needed */
+    height: 400px;
+    background-color: #ccc; /* Grid background color */
+}
+
+.gridSquare {
+    background-color: white; /* Square background color */
+    border: 1px solid #999; /* Square border */
+}
